@@ -1,0 +1,14 @@
+console.log("hey");
+var cake = "love";
+var number= 7;
+console.log(cake + number);
+var prayer = ["mari","cok",1];
+var cake = "love";
+var number= 7;
+console.log(cake + number);
+console.log(prayer);
+var b = prayer.filter(e => e.length > 2);
+console.log(b);
+var ex = [1,2,3];
+ex.splice(0,2,7);
+console.log(ex);
