@@ -204,6 +204,10 @@ justify-content: space-evenly;
     width: 95%;
     margin-bottom: 4px;
   }
+  nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+  }
 }
 
 @media screen and (max-width:800px){
