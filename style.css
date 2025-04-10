@@ -200,6 +200,10 @@ justify-content: space-evenly;
   .imagen{
     width: 300px;
   }
+  .productos li {
+    width: 95%;
+    margin-bottom: 4px;
+  }
 }
 
 @media screen and (max-width:800px){
