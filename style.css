@@ -1,15 +1,153 @@
+
 .flexContainer{
   box-sizing: content-box;
   margin: 8px;
   padding: 5px;
-  background-color: rgba(119, 0, 128, 0.645);
+  background-color: rgb(33,96,109,0.8);
 }
+
+nav a{
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+.navegador{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: larger;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.paragraph{
+  text-align: center;
+  color: rgb(255,240,198,0.92);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.quienes{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.favoritos{
+  display:flex;
+margin-top: 10px;
+justify-content: space-evenly;
+}
+
+.whatsapp img{
+  width: 70px;
+  height:70px;
+  margin-right: 10px;
+
+}
+
+.whatsapp{
+  margin-top: 26px;
+  font-size:x-large;
+  font-weight: bolder;
+}
+
+.carda{
+  background-color: green;
+}
+
+
+
+
+.favoritoss{
+  display:flex;
+margin-top: 10px;
+justify-content: space-evenly;
+}
+
+.productos{
+  width: 100%;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+
+.productos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: rgb(215,172,196,0.8);
+}
+
+
+.productos li:hover{
+  border-color:#c78c19;
+}
+
+.productos li:active{
+  border-color:#088c19;
+}
+
+.productos h2{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+.productos li:hover h2{
+  font-size: 33px;
+}
+
+.producto-descripcion{
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.producto-precio{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:10px;
+  padding-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .flexContainer1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 3px;
+  align-items: center;
 }
 
 .flexContainer2 {
@@ -70,3 +208,5 @@
   }
 
 }
+
+
